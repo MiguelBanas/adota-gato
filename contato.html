@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="basic.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="contato.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/icone.ico" type="image/x-icon">
+    <title>Adota Gato</title>
+  </head>
+  <body>
+    <div class="principal">
+      <nav>
+        <ul class="lista">
+          <li class="lista-item"><a href="index.html">Home</a></li>
+          <li class="lista-item"><a href="adocao.html">Adoção</a></li>
+          <li class="lista-item">
+            <a href="queroadotar.html">Quero adotar</a>
+          </li>
+          <li class="lista-item"><a href="querodoar.html">Quero doar</a></li>
+          
+          <li class="lista-item"><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <header>
+        <img src="assets/logo.png" alt="" />
+      </header>
+
+      <main>
+        <div class="conteudo">
+          <h2 class="conteudo-texto conteudo-titulo">Formulário de contato</h2>
+          <form action="">
+            <fieldset>
+              <legend class="conteudo-texto"> Digite seus dados para entrar em contato:</legend>
+              <label class="conteudo-texto" for="nome">Nome:</label>
+              <input class="input-contato" type="text" name="" id="nome" required>
+              <label class="conteudo-texto" for="telefone">Telefone:</label>
+              <input class="input-contato" type="tel" name="" id="telefone" required>
+              <label class="conteudo-texto" for="texto">Mensagem:</label><textarea class="input-contato" name="" id="texto"  cols="30" rows="10" required></textarea>
+
+            </fieldset>
+            <input type="submit" value="Enviar" id="enviar"> 
+          </form>
+        </div>
+      </main>
+
+      <footer>
+        <ul class="rodape">
+                         <li class="rodape-lista">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="adocao.html">Adoção</a></li>
+                    <li><a href="queroadotar.html">Quero adotar</a></li>
+                    <li><a href="querodoar.html">Quero doar</a></li>
+                    
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </li>
+            <li class="rodape-lista"> <img class="rodape-imagem" src="assets/rodape.svg" alt=""></li>
+        </ul>
+       <p>&copy; Copyright Adota gato - Desenvolvedor Miguel Banas</p>
+     </footer>
+    </div>
+
+    <script src="contato.js"></script>
+  </body>
+</html>

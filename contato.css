@@ -1,0 +1,58 @@
+.conteudo {
+  position: relative;
+  width: 70%;
+  margin: auto;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  margin: 20px auto 20px auto;
+}
+
+.conteudo-texto {
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+}
+
+.conteudo-titulo {
+  padding: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+form{
+    text-align: left;
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+    margin: auto;
+}
+
+.input-contato {
+  display: block;
+  margin: 6px;
+  padding: 7px 0;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid #63625c;
+  transition: 200ms;
+}
+
+.input-contato:active {
+  transform: scale(1.1);
+}
+
+#enviar{
+    padding: 10px 30px;
+    border: none;
+    background-color: #B0ADA4;
+    border-radius: 7px;
+    margin: 20px;
+    transition: 1s;
+    color: #fff;
+}
+
+#enviar:hover{
+    background-color: #E8D292;
+}

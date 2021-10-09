@@ -1,0 +1,86 @@
+/*---------- Geral ---------*/
+.principal {
+  background-color: #e3dfd3;
+}
+
+/*---------- Header ---------*/
+
+.lista {
+  background-color: #ffffff;
+  width: 100%;
+  height: 50px;
+  padding: 30px 0 0 30px;
+}
+
+.lista-item {
+  width: 5%;
+  height: 45px;
+  display: inline;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-right: 15px;
+}
+
+.lista-item a {
+  text-decoration: none;
+  color: #63625c;
+  font-family: "Raleway", sans-serif;
+  transition: 1s;
+}
+
+.lista-item a:hover {
+  color: #b0ada4;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  height: 120px;
+  background-color: #e8d292;
+}
+
+/*---------- Main ---------*/
+
+/*---------- Footer ---------*/
+footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #b0ada4;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+}
+
+.rodape-imagem {
+  width: 15%;
+  padding: 20px;
+}
+
+.rodape {
+  padding: 20px;
+}
+
+.rodape-lista li {
+  width: 50%;
+  display: inline;
+  padding: 07px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+footer p {
+  text-align: center;
+  padding: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #e8d292;
+}

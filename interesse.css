@@ -1,0 +1,134 @@
+/*---------- Dados da pessoa ----------*/
+
+.conteudo{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    margin: 20px auto ;
+    
+}
+
+.conteudo-texto{
+    text-align: left;
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+
+}
+
+.conteudo-titulo{
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+form{
+    text-align: left;
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+    margin: auto;
+}
+
+.pessoal{
+    width: 65%;
+
+}
+
+.pessoal label{
+    padding: 0 10px;
+}
+
+.pessoal legend{
+    margin-bottom: 15px;
+}
+
+.pessoal-input{
+    display: block;
+    margin: 6px;
+    padding: 7px 0;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #63625C;
+    transition: 200ms;
+}
+
+.pessoal-input:active{
+    transform: scale(1.1);
+}
+
+.radio{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.label-outro{
+    display: block;
+    margin-top: 15px;
+}
+
+/*---------- Dados do animal ----------*/
+.animal{
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px dotted #63625C;
+    border-radius: 7px;
+    
+}
+
+.animal label, .animal p{
+    padding: 0 10px;
+    margin: 10px;
+}
+
+.animal legend{
+    margin-bottom: 15px;
+}
+
+.animal-input{
+    display: block;
+    margin: 6px;
+    padding: 7px 0;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #63625C;
+    transition: 200ms;
+}
+
+.animal-input:active{
+    transform: scale(1.1);
+}
+
+/*---------- termo de aceite ----------*/
+.aceita{
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.enviar{
+    margin: auto;
+    text-align: center;
+}
+
+.btn-enviar{
+    padding: 10px 30px;
+    border: none;
+    background-color: #B0ADA4;
+    border-radius: 7px;
+    margin: 20px;
+    transition: 1s;
+    color: #fff;
+
+}
+
+.btn-enviar:hover{
+    background-color: #E8D292;
+}
+
